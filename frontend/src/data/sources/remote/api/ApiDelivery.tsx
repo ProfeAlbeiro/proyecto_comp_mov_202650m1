@@ -1,10 +1,12 @@
 import axios from "axios";
 
 const ApiDelivery = axios.create({
-  baseURL: 'http://10.8.0.98:3000/api',
+  baseURL: 'https://arc-supplied-exemption-self.trycloudflare.com/api',
   headers: {
     'Content-Type': 'application/json'
   }
 });
 
 export { ApiDelivery };
+
+
